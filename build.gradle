@@ -2,7 +2,10 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '3.1.4'
 	id 'io.spring.dependency-management' version '1.1.3'
+	id 'war'
 }
+
+apply plugin: 'war'
 
 group = 'com.hanghae'
 version = '0.0.1-SNAPSHOT'
@@ -13,6 +16,11 @@ java {
 
 repositories {
 	mavenCentral()
+}
+
+bootWar {
+	archiveBaseName="springboot" // 추가
+	archiveVersion="1.0.0-SNAPSHOT" // 추가
 }
 
 dependencies {
