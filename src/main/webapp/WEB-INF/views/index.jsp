@@ -53,6 +53,9 @@
     </style>
 </head>
 <body>
+    <div>
+        <h1 style="text-align:center;">세뱃돈 계산기</h1>
+    </div>
     <div class="calculator">
         <input type="text" id="display" value = 0 disabled>
         <div>
