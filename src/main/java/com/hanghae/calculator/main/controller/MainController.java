@@ -7,6 +7,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class MainController {
     @GetMapping("/")
     public String index() {
-        return "index"; // "index"는 JSP 파일명이 됩니다.
+        return "index";
+    }
+
+    @GetMapping("/hangman")
+    public String hangman() {
+        return "hangman";
     }
 }
