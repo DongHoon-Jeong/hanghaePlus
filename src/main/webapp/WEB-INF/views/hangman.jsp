@@ -229,7 +229,6 @@ window.onload = function () {
                 showLives.innerHTML = "Game Over";
                 showAnswer.innerHTML = "정답은 = "+word;
                 word = "";
-                break;
             }
             for (var i = 0; i < guesses.length; i++) {
                 if (counter + space === guesses.length) {
