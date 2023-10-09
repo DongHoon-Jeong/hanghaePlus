@@ -19,7 +19,7 @@ repositories {
 }
 
 bootWar {
-	archiveBaseName="springboot" // 추가
+	archiveBaseName="calculator" // 추가
 	archiveVersion="1.0.0-SNAPSHOT" // 추가
 }
 
